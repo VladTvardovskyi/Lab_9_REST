@@ -1,0 +1,8 @@
+name, price, type, colour, age, weight, sex, food,wool
+Sanya,400,CASUAL,Orange,4,350,FEMALE,SpecialGrainnull
+name, price, type, colour, age, weight, sex, foodfishForm
+Krasava,1500,CASUAL,Grey,7,2000,MALE,SpecialGrainTHIN
+name, price, type, colour, age, weight, sex, foodbirdsVoice
+Krasava,1500,CASUAL,Grey,6,2000,FEMALE,SpecialGrainSOUNDS
+name, price, type, colour, age, weight, sex, food,wool
+Krasava,1500,PREDATORS,Grey,3,200,MALE,AIGrainnull

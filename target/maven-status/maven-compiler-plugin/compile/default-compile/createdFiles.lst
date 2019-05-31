@@ -1,0 +1,12 @@
+ua\lviv\iot\zoo\shop\models\Mamals.class
+ua\lviv\iot\zoo\shop\models\Sex.class
+ua\lviv\iot\zoo\shop\models\Birds.class
+ua\lviv\iot\zoo\shop\models\KindOfAnimal.class
+ua\lviv\iot\zoo\shop\models\FishFormType.class
+ua\lviv\iot\zoo\shop\manager\ZooManager.class
+ua\lviv\iot\zoo\shop\models\ShopAnimal.class
+ua\lviv\iot\zoo\shop\models\ApplicationDB.class
+ua\lviv\iot\zoo\shop\models\BirdsSoundsType.class
+ua\lviv\iot\zoo\shop\models\Fish.class
+writer\Writer.class
+ua\lviv\iot\zoo\shop\models\AnimalWoolType.class

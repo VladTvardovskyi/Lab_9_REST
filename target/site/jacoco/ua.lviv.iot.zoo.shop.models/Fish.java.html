@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Fish.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">db-sample</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.zoo.shop.models</a> &gt; <span class="el_source">Fish.java</span></div><h1>Fish.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.zoo.shop.models;
+
+public class Fish extends ShopAnimal {
+
+    private FishFormType fishForm;
+
+    public Fish(final String name, final int price,
+            final KindOfAnimal type, final String colour, final int age,
+            final int weight, final Sex sex, final String food,
+            final FishFormType formType) {
+<span class="fc" id="L11">        super(name, price, type, colour, age, weight, sex, food);</span>
+<span class="fc" id="L12">        this.fishForm = formType;</span>
+
+<span class="fc" id="L14">    }</span>
+
+    public Fish(final FishFormType fishForm) {
+<span class="nc" id="L17">        super();</span>
+<span class="nc" id="L18">        this.fishForm = fishForm;</span>
+<span class="nc" id="L19">    }</span>
+
+    public final FishFormType getFishForm() {
+<span class="nc" id="L22">        return fishForm;</span>
+    }
+
+    public final void setFishForm(final FishFormType fishForm) {
+<span class="nc" id="L26">        this.fishForm = fishForm;</span>
+<span class="nc" id="L27">    }</span>
+    
+    @Override
+    public String toString() {
+<span class="fc" id="L31">        return &quot;Fish [fishForm=&quot; + fishForm + &quot;]&quot;;</span>
+    }
+    
+    public String getHeaders() {
+<span class="fc" id="L35">        return super.getHeaders() + &quot;fishForm&quot;;</span>
+    }
+    
+    public String toCSV() {
+<span class="fc" id="L39">        return super.toCSV() + fishForm;</span>
+    }
+    
+    
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

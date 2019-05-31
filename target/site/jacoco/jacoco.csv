@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+db-sample,ua.lviv.iot.zoo.shop.manager,ZooManager,8,116,0,0,2,29,1,16,1,16
+db-sample,writer,Writer,0,47,0,2,0,12,0,3,0,2
+db-sample,ua.lviv.iot.zoo.shop.models,KindOfAnimal,0,24,0,0,0,2,0,1,0,1
+db-sample,ua.lviv.iot.zoo.shop.models,Birds,7,47,0,0,3,6,2,4,2,4
+db-sample,ua.lviv.iot.zoo.shop.models,ShopAnimal,38,120,0,0,19,20,10,11,10,11
+db-sample,ua.lviv.iot.zoo.shop.models,ApplicationDB,65,0,0,0,9,0,4,0,4,0
+db-sample,ua.lviv.iot.zoo.shop.models,AnimalWoolType,0,34,0,0,0,2,0,1,0,1
+db-sample,ua.lviv.iot.zoo.shop.models,Mamals,16,49,0,0,8,5,4,4,4,4
+db-sample,ua.lviv.iot.zoo.shop.models,BirdsSoundsType,0,34,0,0,0,2,0,1,0,1
+db-sample,ua.lviv.iot.zoo.shop.models,FishFormType,0,34,0,0,0,2,0,1,0,1
+db-sample,ua.lviv.iot.zoo.shop.models,Sex,0,24,0,0,0,2,0,1,0,1
+db-sample,ua.lviv.iot.zoo.shop.models,Fish,13,47,0,0,6,6,3,4,3,4
